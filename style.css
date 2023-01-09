@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-size: 30px;
+    margin-bottom: 12px;
+}
+
+.banner{
+    background-image: url(images/banner.jpg);
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    text-align: center;
+    background-size: cover;
+}
+
+.banner_content{
+    padding-top: 125px;
+}
+
+.banner_button{
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+}
+
+.banner_button:hover {
+    background-color: red;
+    color: white;
+}
+
+.donation {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.donate_amount{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+.amount {
+    background-color: skyblue;
+    padding: 15px;
+    margin-right: 10px;
+    color: black;
+    border: 2px #8b4cf8 solid;
+    cursor: pointer;
+}
+
+.active {
+    background-color: red;
+    color: aquamarine;
+}
+
+#input-amount {
+    width: 40%;
+    border: none;
+    border-bottom: 1px aquamarine solid;
+}
+
+.amount-button {
+    color: white;
+    background-color: #8b4cf8;
+    border: 2px white solid;
+    padding: 12px;
+    border-radius: 5px;
+}
+
+.amount-button:hover {
+    background-color: red;
+    color: white;
+}
+
+.donation-plan {
+    text-align: center;
+    margin-top: 5%;
+}
+
+footer {
+    padding: 30px;
+    margin-top: 30px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    margin-right: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.plan {
+    border: 2px #8b4cf8 solid;
+    margin-left: 15px;
+    padding: 15px;
+    background-color: skyblue;
+    height: 160px;
+}
+
+.gallery {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.gallery-row {
+    display: flex;
+}
+
+.gallery-row img {
+    width: 23%;
+    padding: 5px;
+    margin: 5px;
+}
+
